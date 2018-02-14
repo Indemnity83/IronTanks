@@ -19,6 +19,7 @@ public class CreativeTankBlock extends TankBlock {
 
     @Override
     public void addInformation(ItemStack stack, @Nullable World player, List<String> tooltip, ITooltipFlag advanced) {
+        super.addInformation(stack, player, tooltip, advanced);
         tooltip.add(I18n.format("irontanks.tooltip.creative_tank"));
     }
 

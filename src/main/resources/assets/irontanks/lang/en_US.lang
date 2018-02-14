@@ -22,4 +22,4 @@ tile.irontanks.creative_tank.name=Creative Tank
 # Misc localizations
 irontanks.tooltip.capacity=Holds %s buckets
 irontanks.tooltip.void_tank=Destroys fluids
-irontanks.tooltip.creative_tank=Holds 1 bucket, but once it contains a fluid, it will dispense an infinite amount
+irontanks.tooltip.creative_tank=Dispenses an infinite amount
