@@ -10,14 +10,6 @@
   },
   "variants": {
     "normal": [{}],
-    "inventory": [{}],
-    "joined_below": {
-      "true": {
-        "textures": {
-          "side": "irontanks:blocks/creativetank/side_stacked"
-        }
-      },
-      "false": {}
-    }
+    "inventory": [{}]
   }
 }
