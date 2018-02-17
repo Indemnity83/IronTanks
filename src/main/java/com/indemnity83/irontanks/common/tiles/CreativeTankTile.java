@@ -2,6 +2,7 @@ package com.indemnity83.irontanks.common.tiles;
 
 import buildcraft.api.core.IFluidFilter;
 import buildcraft.factory.tile.TileTank;
+import net.minecraft.util.EnumFacing;
 import net.minecraftforge.fluids.FluidStack;
 
 public class CreativeTankTile extends TankTile {
@@ -10,7 +11,8 @@ public class CreativeTankTile extends TankTile {
         return super.drain(filter, maxDrain, false);
     }
 
-    public boolean canConnectTo(TileTank tileTank) {
+    @Override
+    public boolean canConnectTo(TileTank other, EnumFacing direction) {
         return false;
     }
 }
